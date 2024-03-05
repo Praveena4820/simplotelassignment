@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media(min-width:1200px){
+.banner {
+    background-color: #FF7171;
+    height: 50px;
+    align-items: center;
+    padding-bottom: 15px;
+
+}
+
+.un-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.list-item {
+    font-size: 20px;
+    font-family: "roboto";
+    color: black
+}
+
+.menu {
+    height: 20px;
+    width: 20px;
+}
+
+.first-page {
+    background-size: cover;
+    display: flex;
+
+    width: 100vw;
+}
+
+.content {
+    padding: 60px;
+    width: 70vw;
+    background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.head {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "roboto ";
+}
+
+.para {
+    font-size: 20px;
+    font-family: "roboto";
+
+}
+
+.button {
+    border-color: transparent;
+    background-color: #FF7171;
+    color: #ffffff;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.burger-image {
+    height: 70vh;
+    width: 50vw;
+}
+
+.second-page {
+    background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+    height: 80vh;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 150px;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-two-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-1 {
+    height: 200px;
+    width: 220px;
+    margin-bottom: 15px;
+}
+
+.image-2 {
+    height: 415px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.page-2-content {
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    background-color: #FF7171;
+}
+
+.page-2-head {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+.page-2-para{
+    padding-top: 5px;
+    font-family: "Roboto";
+    font-size: 20px;
+    color:black;
+}
+
+.click {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.arrow {
+    height: 25px;
+    margin: 10px;
+}
+}
+
+@media(max-width:768px) {
+
+
+    .banner {
+        background-color: #FF7171;
+        height: 40px;
+        width: 100vw;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+
+    .un-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+
+    }
+
+    .list-item {
+        font-size: 15px;
+        font-family: "roboto";
+        color: black
+    }
+
+    .menu {
+        height: 15px;
+        width: 15px;
+    }
+
+    .first-page {
+        background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+    .content {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+
+    .head {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "roboto ";
+    }
+
+    .para {
+        font-size: 18px;
+        font-family: "roboto";
+
+    }
+
+    .button {
+        border-color: transparent;
+        background-color: #FF7171;
+        color: #ffffff;
+        width: 30%;
+        text-align: center;
+    }
+
+    .burger-image {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .second-page {
+        background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+        height: 100vh;
+        width: 100vw;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 150px;
+
+    }
+
+    .images {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .first-two-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-1 {
+        height: 200px;
+        width: 220px;
+        margin-bottom: 15px;
+    }
+
+    .image-2 {
+        height: 415px;
+        width: 220px;
+        margin-left: 20px;
+    }
+
+    .page-2-content {
+        margin-top: 100px;
+        margin-left: 40px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 250px;
+        background-color: #FF7171;
+    }
+
+    .page-2-head {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 30px;
+        color:black ;
+    }
+
+    .page-2-para {
+        padding-top: 5px;
+        font-family: "Roboto";
+        font-size: 18px;
+        color:black ;
+    }
+
+    .click {
+        display: flex;
+        margin-top: 13px;
+
+    }
+
+    .arrow {
+        height: 25px;
+        margin: 10px;
+    }
+}
+
+@media(max-width:576px) {
+
+
+    .banner {
+        background-color: #FF7171;
+        height: 40px;
+        width: 100vw;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+
+    .un-list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+
+    }
+
+    .list-item {
+        font-size: 10px;
+        font-family: "roboto";
+        color: black
+    }
+
+    .menu {
+        height: 15px;
+        width: 15px;
+        padding-top: 0px;
+    }
+
+    .first-page {
+        background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        padding-left: 30px;
+    }
+
+    .content {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+
+    .head {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "roboto ";
+    }
+
+    .para {
+        font-size: 12px;
+        font-family: "roboto";
+
+    }
+
+    .button {
+        border-color: transparent;
+        background-color: #FF7171;
+        color: #ffffff;
+        width: 30%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .burger-image {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .second-page {
+        background-image: linear-gradient(to right, #FFF1B3, #FFD4CF);
+        height: 140vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 80vw;
+    }
+
+    .first-two-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .image-1 {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .image-2 {
+        height: 240px;
+        width: 120px;
+    }
+
+    .page-2-content {
+        margin-top: 100px;
+        margin-left: 40px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+        background-color: #FF7171;
+    }
+
+    .page-2-head {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+
+    .page-2-para {
+        padding-top: 5px;
+        font-family: "Roboto";
+        font-size: 14px;
+        color:black ;
+    }
+
+    .click {
+        display: flex;
+        margin-top: 14px;
+
+    }
+
+    .arrow {
+        height: 20px;
+        margin: 5px;
+    }
+}
